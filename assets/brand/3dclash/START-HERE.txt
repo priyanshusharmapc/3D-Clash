@@ -1,0 +1,119 @@
+3DClash / BRAND ASSET PACK 02
+Version 2.0 | 16 November 2026 | AI design coordination
+
+START HERE
+Read README.md for build and integration instructions.
+Open preview/index.html to browse the kit, or docs/3dclash-brand-guide.pdf for
+the four-page usage guide. The contact sheet is preview/asset-pack-overview.png.
+
+THE IDENTITY
+A three-face isometric cube symbol with an even cut between its faces, and a
+3DClash wordmark set in Poppins Bold and outlined to editable paths. The
+symbol and wordmark share the geometry in source/master.json. An optical
+micro symbol uses a wider cut to stay open at favicon sizes.
+
+WHAT IS INCLUDED
+
+svg/wordmarks/
+  Ink black, navy, white and currentColor wordmarks. Fully outlined paths.
+
+svg/symbols/
+  Matching cube symbols in the same four variants.
+
+svg/lockups/
+  Wordmark with the tagline "AI DESIGN COORDINATION", in black, navy and white.
+  The tagline is outlined, so no font is needed to use the artwork.
+
+png/wordmarks/
+  Transparent PNGs: 512, 1024, 2048 and 4096 pixels wide, three colours.
+
+png/symbols/
+  Transparent PNGs: 64, 128, 256, 512 and 1024 pixels, three colours.
+
+png/lockups/
+  Transparent tagline lockups: 1024, 2048 and 4096 pixels wide.
+
+icons/
+  Rounded app icons: 64, 128, 256, 512 and 1024 px, plus SVG.
+  Full-bleed square app icon SVG and 1024 px store PNG.
+  Apple touch icon: 180 px. OS platforms add their own corner mask.
+  Android Chrome icons: 192 and 512 px, plus maskable versions.
+  Adaptive favicon.svg: black on light browser themes, white on dark themes.
+  Transparent and navy-tile favicon PNGs: 16, 32, 48, 64 and 256 px.
+  favicon.ico: seven embedded sizes, 16-256 px, navy tile with white symbol.
+  Safari pinned-tab SVG, 150 px Windows tile and browserconfig.xml.
+  site.webmanifest with relative icon URLs.
+
+social/
+  Light and dark 1200 x 630 cards, light and dark 1080 x 1080 squares,
+  and a 1584 x 396 profile banner. Each is supplied as SVG and PNG.
+
+video/
+  Light and dark 1920 x 1080 title cards, plus black and white transparent
+  1920 x 1080 corner-logo overlays. Each is supplied as SVG and PNG.
+
+print/
+  Six-page PDF of vector print masters, plus wordmark and symbol EPS files
+  in ink black and navy. All print artwork uses RGB colour.
+
+tokens/
+  CSS variables and JSON palette and sizing tokens.
+
+source/
+  master.json: canonical logo geometry, colours and measurements.
+  generate-master.py: writes master.json from the cube geometry and Poppins Bold.
+  build-assets.cjs: SVG and PNG export script.
+  build-print.py: guide, PDF, EPS and ICO export script, with export checks.
+  export-list.json: list of outputs made by the JavaScript generator.
+
+manifest.json
+  SHA-256, byte sizes and dimensions for the listed deliverables.
+
+COLOURS
+  Ink       #11161B
+  Navy      #052640
+  White     #FFFFFF
+  Paper     #F5F7F8  (supporting background)
+  Line      #DDE3E7  (supporting divider)
+  Muted     #52636E  (supporting text)
+Colour space: sRGB. PNGs are exported with an embedded sRGB ICC profile.
+
+SIZING AND SPACING
+  Keep clear space of at least 25% of the wordmark cap height on every side.
+  Transparent logo SVG/PNG canvases include that space already.
+  Wordmark minimum artwork width: 128 px. Tagline lockup: 240 px.
+  Standard symbol minimum width: 24 px. Optical micro symbol: 16-20 px.
+  Use the optical favicon artwork for very small display sizes.
+  Never stretch, rotate or add shadows to the master marks.
+  White transparent PNGs look blank when placed on a white background.
+
+WEB INTEGRATION EXAMPLE
+Copy the icons folder under /brand/icons/ and adapt these paths as needed:
+
+  <link rel="icon" href="/brand/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/brand/icons/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/brand/icons/apple-touch-icon.png">
+  <link rel="mask-icon" href="/brand/icons/safari-pinned-tab.svg" color="#052640">
+  <link rel="manifest" href="/brand/icons/site.webmanifest">
+  <meta name="theme-color" content="#052640">
+  <meta name="msapplication-config" content="/brand/icons/browserconfig.xml">
+
+Set start_url and scope in the manifest to the actual hosting path. A manifest
+does not itself add offline support. CurrentColor SVGs inherit CSS colour only
+when placed inline; img elements do not pass page CSS into an external SVG.
+
+PRINT
+Use SVG, EPS or PDF masters. They contain actual paths, not embedded PNGs.
+Colours are RGB; ask the printer to convert with the output device's ICC profile
+if CMYK is required. PDFs are not labelled PDF/X and no bleed is implied.
+
+FONTS
+The wordmark is outlined from Poppins Bold (SIL Open Font License 1.1). The
+PDF guide uses standard Helvetica. Supporting text in future material can use
+Inter, Arial or a system sans-serif. No font file is redistributed in this pack.
+
+REBUILD
+See README.md. In short: generate-master.py (only when the geometry changes),
+then build-assets.cjs, build-print.py, and the motion scripts in motion/source/.
+Set CLASH3D_SUPPORT_FONT to a sans-serif font file for the build. The font is
+used only to outline the tagline and card text.

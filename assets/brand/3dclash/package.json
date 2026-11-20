@@ -1,0 +1,24 @@
+{
+  "name": "3dclash-brand-assets",
+  "version": "2.0.0",
+  "private": true,
+  "description": "3DClash identity and motion sources: an isometric cube symbol and a Poppins-outlined wordmark",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build:master": "python3 source/generate-master.py",
+    "build:static": "node source/build-assets.cjs",
+    "build:motion": "node motion/source/build-motion.cjs && node motion/source/build-components.cjs",
+    "check:browser": "node motion/source/check-browser.cjs",
+    "check:types": "tsc --project motion/react/tsconfig.json"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "@types/react": "19.3.0",
+    "playwright": "1.62.1",
+    "react": "19.3.1",
+    "sharp": "0.35.5",
+    "typescript": "5.9.3"
+  }
+}

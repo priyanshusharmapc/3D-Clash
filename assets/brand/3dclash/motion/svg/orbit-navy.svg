@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="om-svg om-orbit" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="3DClash loading" style="color:#052640"><title>3DClash loading</title><style>
+.om-spin,.om-phase,.om-settle,.om-letter{transform-box:view-box;transform-origin:128px 128px}
+.om-svg{overflow:visible}
+.om-letter{transform-origin:698px 128px}
+@keyframes om-orbit{to{transform:rotate(360deg)}}
+@keyframes om-breathe-0{0%,100%{transform:translate(0,0);opacity:1}50%{transform:translate(0px,-8px);opacity:.5}}
+@keyframes om-resolve-0{0%,8%,100%{transform:translate(0px,-16px);opacity:.55}32%,78%{transform:translate(0,0);opacity:1}}
+@keyframes om-breathe-1{0%,100%{transform:translate(0,0);opacity:1}50%{transform:translate(-6.928px,4px);opacity:.5}}
+@keyframes om-resolve-1{0%,8%,100%{transform:translate(-13.856px,8px);opacity:.55}32%,78%{transform:translate(0,0);opacity:1}}
+@keyframes om-breathe-2{0%,100%{transform:translate(0,0);opacity:1}50%{transform:translate(6.928px,4px);opacity:.5}}
+@keyframes om-resolve-2{0%,8%,100%{transform:translate(13.856px,8px);opacity:.55}32%,78%{transform:translate(0,0);opacity:1}}
+@keyframes om-phase{0%,20%{transform:rotate(0)}25%,45%{transform:rotate(90deg)}50%,70%{transform:rotate(180deg)}75%,95%{transform:rotate(270deg)}100%{transform:rotate(360deg)}}
+@keyframes om-settle{0%{transform:scale(.88);opacity:.2}60%{transform:scale(1.055);opacity:1}100%{transform:scale(1);opacity:1}}
+@keyframes om-letter-in{0%{transform:translateY(18px);opacity:0}100%{transform:translateY(0);opacity:1}}
+@media(prefers-reduced-motion:no-preference){
+.om-orbit .om-spin{animation:om-orbit 1.6s linear infinite}
+.om-breathe .om-part-0{animation:om-breathe-0 2s ease-in-out infinite}
+.om-resolve .om-part-0{animation:om-resolve-0 2.4s cubic-bezier(.4,0,.2,1) infinite}
+.om-breathe .om-part-1{animation:om-breathe-1 2s ease-in-out infinite}
+.om-resolve .om-part-1{animation:om-resolve-1 2.4s cubic-bezier(.4,0,.2,1) infinite}
+.om-breathe .om-part-2{animation:om-breathe-2 2s ease-in-out infinite}
+.om-resolve .om-part-2{animation:om-resolve-2 2.4s cubic-bezier(.4,0,.2,1) infinite}
+.om-phase-cycle .om-phase{animation:om-phase 4.8s cubic-bezier(.4,0,.2,1) infinite}
+.om-settle .om-settle{animation:om-settle .76s cubic-bezier(.2,.8,.2,1) both}
+.om-reveal .om-letter{animation:om-letter-in .7s cubic-bezier(.2,.8,.2,1) both}
+.om-reveal .om-letter-1{animation-delay:.16s}.om-reveal .om-letter-2{animation-delay:.32s}.om-reveal .om-letter-3{animation-delay:.48s}
+}
+</style><g fill="currentColor" transform="translate(32 32)"><g class="om-spin"><path data-path="0" d="M 128 16 L 218.24485 68.10289 L 128 120.20577 L 37.75515 68.10289 Z"/><path data-path="1" d="M 28.75515 83.69134 L 119 135.79423 L 119 240 L 28.75515 187.89711 Z"/><path data-path="2" d="M 137 135.79423 L 227.24485 83.69134 L 227.24485 187.89711 L 137 240 Z"/></g></g></svg>

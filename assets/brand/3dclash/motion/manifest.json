@@ -1,0 +1,425 @@
+{
+  "name": "3DClash motion pack",
+  "version": "2.0",
+  "date": "2026-11-16",
+  "files": [
+    {
+      "file": "START-HERE.txt",
+      "bytes": 5905,
+      "sha256": "41780f6ac23f5674feff66b6b1c3a728f1d2251a56b89792cdfaa6aac973d3d8"
+    },
+    {
+      "file": "timings.json",
+      "bytes": 579,
+      "sha256": "42ff08175c467ed6dab19ecb9150fe95628107147d75f5c1c4ebe1140f4b04d4"
+    },
+    {
+      "file": "apng/breathe-ink.png",
+      "bytes": 238819,
+      "sha256": "ae2ade6b8f04d867300e6febb0f0980340092686d4a2a9e1878844afc6b12a55",
+      "width": 256,
+      "height": 256,
+      "frames": 50,
+      "loop": 0,
+      "duration_ms": 2000.0
+    },
+    {
+      "file": "apng/breathe-white.png",
+      "bytes": 197082,
+      "sha256": "6db9425ca6dd5213896dd19411a9c439ad159b62ed5542d2ad3f587dcc113a03",
+      "width": 256,
+      "height": 256,
+      "frames": 50,
+      "loop": 0,
+      "duration_ms": 2000.0
+    },
+    {
+      "file": "apng/orbit-ink.png",
+      "bytes": 249318,
+      "sha256": "7cad160052adb0a3c07fedb6d1c74b383240a471b0184c79a4cbf5190be7ec17",
+      "width": 256,
+      "height": 256,
+      "frames": 40,
+      "loop": 0,
+      "duration_ms": 1600.0
+    },
+    {
+      "file": "apng/orbit-white.png",
+      "bytes": 194893,
+      "sha256": "4bae9adf17b7abd32c5599d605fb7dabd3ebf410769bfa05b83ffd4a4bab90e7",
+      "width": 256,
+      "height": 256,
+      "frames": 40,
+      "loop": 0,
+      "duration_ms": 1600.0
+    },
+    {
+      "file": "apng/phase-cycle-ink.png",
+      "bytes": 149338,
+      "sha256": "76bc2b0187bec399869ade7089b63cf3dfcf0f90d11b2a921d3af92f3597e0de",
+      "width": 256,
+      "height": 256,
+      "frames": 24,
+      "loop": 0,
+      "duration_ms": 4800.0
+    },
+    {
+      "file": "apng/phase-cycle-white.png",
+      "bytes": 117043,
+      "sha256": "6df152e0412fe01f3ff9955fb9bbff1fbda0de14fa525e91f28bfa7a56675b7c",
+      "width": 256,
+      "height": 256,
+      "frames": 24,
+      "loop": 0,
+      "duration_ms": 4800.0
+    },
+    {
+      "file": "apng/resolve-ink.png",
+      "bytes": 150031,
+      "sha256": "4cb6003f53bb033abc6910b9b6d3f31b8f9562968a312c88c3de0f133f2bd030",
+      "width": 256,
+      "height": 256,
+      "frames": 30,
+      "loop": 0,
+      "duration_ms": 2400.0
+    },
+    {
+      "file": "apng/resolve-white.png",
+      "bytes": 122681,
+      "sha256": "2d3fd323a5065afe5887602bf612e1b2b56e610fbccfa1ecbf6ad6d1115f36d5",
+      "width": 256,
+      "height": 256,
+      "frames": 30,
+      "loop": 0,
+      "duration_ms": 2400.0
+    },
+    {
+      "file": "apng/reveal-ink.png",
+      "bytes": 366582,
+      "sha256": "bc2950fd392a359913683670bf03e5674c65cbf829255db9e4b170698ae13ecf",
+      "width": 960,
+      "height": 242,
+      "frames": 31,
+      "loop": 1,
+      "duration_ms": 3200.0
+    },
+    {
+      "file": "apng/reveal-white.png",
+      "bytes": 274120,
+      "sha256": "564dcceac7f569d5bac6bce96b1bb971abf9bbe2b1eeea6dc3ec9c7f26252a0f",
+      "width": 960,
+      "height": 242,
+      "frames": 31,
+      "loop": 1,
+      "duration_ms": 3200.0
+    },
+    {
+      "file": "apng/settle-ink.png",
+      "bytes": 93318,
+      "sha256": "76a654abb9298b4923594f25963f2571580a22fa47af3be6f892fb5b93fbf947",
+      "width": 256,
+      "height": 256,
+      "frames": 20,
+      "loop": 1,
+      "duration_ms": 1280.0
+    },
+    {
+      "file": "apng/settle-white.png",
+      "bytes": 77047,
+      "sha256": "6ddeeb2941f1985cbb90a8bf8c3b37372422482900d3e608db4d4703fb0b2192",
+      "width": 256,
+      "height": 256,
+      "frames": 20,
+      "loop": 1,
+      "duration_ms": 1280.0
+    },
+    {
+      "file": "gif/breathe-dark.gif",
+      "bytes": 139612,
+      "sha256": "6371650ee9ef97e8fb58bb2233edc699b80158a256b7f71636b1150ac9a8e037",
+      "width": 256,
+      "height": 256,
+      "frames": 50,
+      "loop": 0,
+      "duration_ms": 2000
+    },
+    {
+      "file": "gif/breathe-light.gif",
+      "bytes": 140710,
+      "sha256": "5f7dcc35efb44543b5d7ff217b9a74d5eb47c51ba71598e2a32ffcd200ea6ed4",
+      "width": 256,
+      "height": 256,
+      "frames": 50,
+      "loop": 0,
+      "duration_ms": 2000
+    },
+    {
+      "file": "gif/orbit-dark.gif",
+      "bytes": 123831,
+      "sha256": "98d1efd1c501e3975e18bfa180d7fdbe6249a61fe0fa7b35448db86119134a81",
+      "width": 256,
+      "height": 256,
+      "frames": 40,
+      "loop": 0,
+      "duration_ms": 1600
+    },
+    {
+      "file": "gif/orbit-light.gif",
+      "bytes": 125972,
+      "sha256": "4928c2464c703965120658302bb8674bcea8cd4e45e8884643e6774dd3a85f3f",
+      "width": 256,
+      "height": 256,
+      "frames": 40,
+      "loop": 0,
+      "duration_ms": 1600
+    },
+    {
+      "file": "gif/phase-cycle-dark.gif",
+      "bytes": 73865,
+      "sha256": "6023ad2b4a556681ebcd98909237ac4fdc7ec99edd12ecde471c83c92a3ae0ea",
+      "width": 256,
+      "height": 256,
+      "frames": 24,
+      "loop": 0,
+      "duration_ms": 4800
+    },
+    {
+      "file": "gif/phase-cycle-light.gif",
+      "bytes": 74861,
+      "sha256": "8d6a59d7751b611e744479d89d59c76d16e898e919caa7c6abd60c567a58054d",
+      "width": 256,
+      "height": 256,
+      "frames": 24,
+      "loop": 0,
+      "duration_ms": 4800
+    },
+    {
+      "file": "gif/resolve-dark.gif",
+      "bytes": 84376,
+      "sha256": "15b4dfa8cf8c2275c970e0d8117ec885b6af485e29615a874993367ce49762ee",
+      "width": 256,
+      "height": 256,
+      "frames": 30,
+      "loop": 0,
+      "duration_ms": 2400
+    },
+    {
+      "file": "gif/resolve-light.gif",
+      "bytes": 85047,
+      "sha256": "c74adecaca69a516a48234cb6ea4864101fc009523d12740647143871cd93502",
+      "width": 256,
+      "height": 256,
+      "frames": 30,
+      "loop": 0,
+      "duration_ms": 2400
+    },
+    {
+      "file": "gif/reveal-dark.gif",
+      "bytes": 317012,
+      "sha256": "6cdff0a6cb7492eaee8d1fd5866e423f9eb11e1b64822195cf2c7a316b935281",
+      "width": 720,
+      "height": 230,
+      "frames": 30,
+      "loop": 0,
+      "duration_ms": 3200
+    },
+    {
+      "file": "gif/reveal-light.gif",
+      "bytes": 377695,
+      "sha256": "0013b1d6750125d6ec37465ad8011c3facc4f04596e200239e64ecfd9a2e04c2",
+      "width": 720,
+      "height": 230,
+      "frames": 31,
+      "loop": 0,
+      "duration_ms": 3200
+    },
+    {
+      "file": "gif/settle-dark.gif",
+      "bytes": 55093,
+      "sha256": "7e060208dd5a83e8a5ef990f82fcba3970e649bf62e763421e5449e1e9256cd0",
+      "width": 256,
+      "height": 256,
+      "frames": 20,
+      "loop": 0,
+      "duration_ms": 1280
+    },
+    {
+      "file": "gif/settle-light.gif",
+      "bytes": 55603,
+      "sha256": "5ac87471dcbad82ea0baf6dff031de57653fa902979fce00078e47cf0aad572b",
+      "width": 256,
+      "height": 256,
+      "frames": 20,
+      "loop": 0,
+      "duration_ms": 1280
+    },
+    {
+      "file": "preview/index.html",
+      "bytes": 36992,
+      "sha256": "5ffe95ecccdf7d23dc80a738a71affbbc7977dc1bc0127339bc35be2afa8b1fb"
+    },
+    {
+      "file": "preview/motion-overview.gif",
+      "bytes": 2351303,
+      "sha256": "6ab104c5fb517b75e1a4726d1f884a027d7d0cafda67a0f5bd8d0189c7d07d1e",
+      "width": 1200,
+      "height": 720,
+      "frames": 120,
+      "loop": 0,
+      "duration_ms": 4800
+    },
+    {
+      "file": "preview/motion-poster.png",
+      "bytes": 45142,
+      "sha256": "87fbda13e7f7dbadf07d3dfb0cdde6d6acf69b5635ac38d9f8cf9360ea52aa6d",
+      "width": 1200,
+      "height": 720,
+      "frames": 1
+    },
+    {
+      "file": "react/Clash3DMotion.tsx",
+      "bytes": 1490,
+      "sha256": "5901c627f9e2f0e7f0ecd525b46cc813d03210a5bb25967163e344142c8a3c0b"
+    },
+    {
+      "file": "react/tsconfig.json",
+      "bytes": 359,
+      "sha256": "7ce9a58c4d0a954320866db99d3ab1608c52ddb0fb5e09a01e2efc879b6282e7"
+    },
+    {
+      "file": "source/build-components.cjs",
+      "bytes": 9390,
+      "sha256": "6bae1107e1eebe2fd5f33a0fd896f2077a08514a99f05113caaf132dcf5bc43f"
+    },
+    {
+      "file": "source/build-motion.cjs",
+      "bytes": 19603,
+      "sha256": "7461d2d4f79cd74e3c54b674e7698c049ae6014a6ffa375bc58090ed4da46e2a"
+    },
+    {
+      "file": "source/check-browser.cjs",
+      "bytes": 8037,
+      "sha256": "b6eb4c94095e3dded989101567d79cb5d2a746bdc7828503d06b6f8497879f65"
+    },
+    {
+      "file": "source/package-motion.py",
+      "bytes": 8074,
+      "sha256": "94b0b768edecf82d8a2ff39407d064cf91b83419de36fe2762f26cb57852308b"
+    },
+    {
+      "file": "svg/breathe-ink.svg",
+      "bytes": 2924,
+      "sha256": "271f802655ca751ca1882344c14c6b2c013bf9c746b5807a48c68b0a94730956"
+    },
+    {
+      "file": "svg/breathe-navy.svg",
+      "bytes": 2924,
+      "sha256": "ddf89d05205a36f24fde37671a50092f15e69645d31e98820e636f2d319b06f0"
+    },
+    {
+      "file": "svg/breathe-white.svg",
+      "bytes": 2924,
+      "sha256": "aa2294e053181e6949ac77e12f7e6a56840fe44a8340ef7cf8aaf4dc231e0314"
+    },
+    {
+      "file": "svg/orbit-ink.svg",
+      "bytes": 2888,
+      "sha256": "f5a0083a142a87acb7e70a95d844e58a8d57d7e0ea845fe639a356eac164cb93"
+    },
+    {
+      "file": "svg/orbit-navy.svg",
+      "bytes": 2888,
+      "sha256": "7e5155f17e9563b2eab1a45a2021e3ae1ab63b99b1e0cc0447b60ae3f83af317"
+    },
+    {
+      "file": "svg/orbit-white.svg",
+      "bytes": 2888,
+      "sha256": "fbef53eaee8a6caa39d8c8d7094c1b4a31f0e7c1f142915378080f8513065598"
+    },
+    {
+      "file": "svg/phase-cycle-ink.svg",
+      "bytes": 2943,
+      "sha256": "24146418301f3a4872db897202faf4b346ea283d128996846fd9d3dd72ddbced"
+    },
+    {
+      "file": "svg/phase-cycle-navy.svg",
+      "bytes": 2943,
+      "sha256": "6470966a87686b93c3e1bfce32bd8518c0532074005b27f7808f43da9d8a1b69"
+    },
+    {
+      "file": "svg/phase-cycle-white.svg",
+      "bytes": 2943,
+      "sha256": "0207af63cf827ddfb0aa36d4b8f8e47df507567a82df4bd8b07bafe1bddda65e"
+    },
+    {
+      "file": "svg/resolve-ink.svg",
+      "bytes": 2924,
+      "sha256": "63f491c1bd23f3d96120cd18553b744b3c4ce000a2c18b16c3a55e156a051ec7"
+    },
+    {
+      "file": "svg/resolve-navy.svg",
+      "bytes": 2924,
+      "sha256": "de98ecd43743dcad850a1b481f7fb2f04769e21a487f7785fcc780e81ae5e74c"
+    },
+    {
+      "file": "svg/resolve-white.svg",
+      "bytes": 2924,
+      "sha256": "a8cced7aff9f6caf942c5302e62d1c9d18679756bdc6f27494978cb36055341a"
+    },
+    {
+      "file": "svg/reveal-ink.svg",
+      "bytes": 10287,
+      "sha256": "0bde45b27d9597462b4d31a0e5deb34d754fb264d748900ad41790e268947812"
+    },
+    {
+      "file": "svg/reveal-navy.svg",
+      "bytes": 10287,
+      "sha256": "37973893da5e19b92227c0a757e75d814f1125b37346fe86d3773353136807d9"
+    },
+    {
+      "file": "svg/reveal-white.svg",
+      "bytes": 10287,
+      "sha256": "69aa01c24c8cf7fadb5b185dfd14e13280637d4ba0ac06054b42759cc5fcdef9"
+    },
+    {
+      "file": "svg/settle-ink.svg",
+      "bytes": 2915,
+      "sha256": "e13785b4f601a542394d4f18bfd5e1c55a58997c0a9aba1717b1dd980ad09555"
+    },
+    {
+      "file": "svg/settle-navy.svg",
+      "bytes": 2915,
+      "sha256": "e1b72938ddce132a62bc166aff988838a81da0516f05b8b7f5590019b61f1d38"
+    },
+    {
+      "file": "svg/settle-white.svg",
+      "bytes": 2915,
+      "sha256": "c3d6a1524f2d2b06e0bcfc68800fdc3d7ee85de302b4e0e8ece4771de6b4f4e6"
+    },
+    {
+      "file": "web/3dclash-motion-svg.css",
+      "bytes": 2302,
+      "sha256": "53d7f2b7c7308d818141b49b671f2a2eaa00e0237336d671ba406fbcdbd1656d"
+    },
+    {
+      "file": "web/3dclash-motion.css",
+      "bytes": 3237,
+      "sha256": "8d5eeab824f9d577167dac33414b28d8cb01f54cdb7729fc540db1b27e9af39a"
+    },
+    {
+      "file": "web/3dclash-motion.d.ts",
+      "bytes": 644,
+      "sha256": "b57d17827b8b7443968bd9e622019905d70ef7dee69652379caebaff54c2aee5"
+    },
+    {
+      "file": "web/3dclash-motion.js",
+      "bytes": 29426,
+      "sha256": "fa54b6c2629cbeb6b33f7c0f1580f52fd442601e7451e48a5f4d9ed3895d8216"
+    },
+    {
+      "file": "web/example.html",
+      "bytes": 1729,
+      "sha256": "cdbc39e37ba391d1788ac9248464366dfdede5b14480787aa1742cc375473811"
+    }
+  ]
+}

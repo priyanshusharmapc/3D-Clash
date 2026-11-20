@@ -1,0 +1,808 @@
+{
+  "name": "3DClash asset pack",
+  "version": "2.0",
+  "date": "2026-11-16",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 84,
+      "sha256": "8e5b00b285ccd84515685392b183cb897e06734d455d5245f3ebcd28996e6b38"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 76,
+      "sha256": "f49afa7bc636db8b3497f4a30a8212659dcaded59f260e801d2e80d81a64c9b6"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4217,
+      "sha256": "310a8d9f0d8a6538ce34121d74e73974866601bccef9e4a4fbe3fd6235e9de81"
+    },
+    {
+      "file": "START-HERE.txt",
+      "bytes": 5076,
+      "sha256": "5a876266986fb927bc85334b5b52b13e88e94d7d55efacbca0e16093075b395d"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 32191,
+      "sha256": "02c7891903621421f18ce13a781ab7142d06eb3170b49f993c9ba254f82dc0d3"
+    },
+    {
+      "file": "package.json",
+      "bytes": 777,
+      "sha256": "d2eadbf4b48fe0ec7e3815a902dc074396a1fb3c233afae35e98faad888321c5"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 46,
+      "sha256": "71085db0ee325c2bc2ea2a7aaa8272b4a7a3c06170c50b76aa19ea6c259a124e"
+    },
+    {
+      "file": "docs/3dclash-brand-guide.pdf",
+      "bytes": 17933,
+      "sha256": "73e9870192278fc19c527016d20490da8a0ba530f25edcc26faa5d2dd0aec5de",
+      "pages": 4
+    },
+    {
+      "file": "icons/3dclash-app-icon-1024.png",
+      "bytes": 26802,
+      "sha256": "45ee019eb3ad16ac3163d61c96539e618f76f95c77c5ea0a5a7b56d7f5551b69",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/3dclash-app-icon-128.png",
+      "bytes": 2512,
+      "sha256": "974a7b9026db77a8f3483c22113c407aec6b70f2b7f6a96c0a8347d63060c407",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/3dclash-app-icon-256.png",
+      "bytes": 4827,
+      "sha256": "a94b74ef44f18ac6ca56667e92763b2c2da3e25ce3d3efbfe77978bfbdd32007",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/3dclash-app-icon-512.png",
+      "bytes": 11023,
+      "sha256": "c2898c747b79a06f9173acc59d1bcc696dd13e7149325ecc94347ae6627c403b",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/3dclash-app-icon-64.png",
+      "bytes": 1500,
+      "sha256": "e243c6e226db8127dda83abf2a0dd818851b74a052fffdc0497ad121f31c41cb",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/3dclash-app-icon-maskable.svg",
+      "bytes": 667,
+      "sha256": "44b7c1855747f3fdb8b8011b97987f2fde74b64e6a025bca9dcfd394f115ebea"
+    },
+    {
+      "file": "icons/3dclash-app-icon-square.svg",
+      "bytes": 643,
+      "sha256": "43434b2c47a3a819cfaacb25c443099f55a9d754fec48670afa372a9e6b8d624"
+    },
+    {
+      "file": "icons/3dclash-app-icon.svg",
+      "bytes": 648,
+      "sha256": "39af7cefea2c6f2b9c28cab20fce29cfed050d58c297034511cf46c437a696c3"
+    },
+    {
+      "file": "icons/3dclash-symbol-micro.svg",
+      "bytes": 563,
+      "sha256": "3918e51229fee963d1e8786f74e368692b0c62bf0a72b5f65ad012e27ec80e44"
+    },
+    {
+      "file": "icons/android-chrome-192.png",
+      "bytes": 2687,
+      "sha256": "667763e770811d176be4625dcdec5340569a0fe4da9672c7412085eb45e849fd",
+      "width": 192,
+      "height": 192,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/android-chrome-512.png",
+      "bytes": 7771,
+      "sha256": "8694642b5e9cefb1ffc484f41f5e6c579db0ae59c1ac16e7f6e57ab9ffb3d6d8",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/apple-store-icon-1024.png",
+      "bytes": 19798,
+      "sha256": "710f05bedd3f9f669503cc80a1412dd2b3fe4dfe450b27bdcfd1458af52823d7",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/apple-touch-icon.png",
+      "bytes": 2409,
+      "sha256": "563ec1328bcc6ede3bc3807a86cacbc99da3d30551f547828bbf3b85f6dd6b2f",
+      "width": 180,
+      "height": 180,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/browserconfig.xml",
+      "bytes": 188,
+      "sha256": "5eee0e164344d2d4232cadbe9cf4dc25980ce67b0e03b886bc3d9ca7ba4cb171"
+    },
+    {
+      "file": "icons/favicon-16.png",
+      "bytes": 680,
+      "sha256": "f7dfca1d07c1822d8ce342d0972bcd19bbc21570d5a2bfcd826176bff3887dc1",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-256.png",
+      "bytes": 4111,
+      "sha256": "9ae3e0a92807b5bae6499ec74329b6449ba875bbc6e28c9b9ae6a462c0d14dc9",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-32.png",
+      "bytes": 906,
+      "sha256": "0a15fee06c8ff89a4f9b21d5265be2ce606a21e032c8084776ca67f5fb15148f",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-48.png",
+      "bytes": 1063,
+      "sha256": "e9b72d931226b9b2d5b294ea2dd6b6e400f0f263bd531b0e26ae788fdb1aa76e",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-64.png",
+      "bytes": 1208,
+      "sha256": "34b79f9428fbba0fc773698284485ef13eb23ab4d498349d1a85d0fbfc6439cb",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-tile-16.png",
+      "bytes": 661,
+      "sha256": "44cd0aacab3c2daebe7bb58012d1f667fba9958fa808bd1b94c07c7cb4a157b9",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-tile-256.png",
+      "bytes": 4041,
+      "sha256": "5ab9a5a541467976d80edbb4d712645bda7d46e013230afb493e63094c13fd2a",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-tile-32.png",
+      "bytes": 861,
+      "sha256": "5cc8cd356acdb43383edae18b29089d54dc279f0c6353907a822ed95fcd1fc7f",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-tile-48.png",
+      "bytes": 1078,
+      "sha256": "f4675a6fe60e6e57c9afccbd0e1f8fec219523886bd58ba8125e2b5fc5d0cc79",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon-tile-64.png",
+      "bytes": 1259,
+      "sha256": "7331c640717d74b0221ba8814bdad91b754b47324c6ff83827d325c0acd4be09",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/favicon.ico",
+      "bytes": 19956,
+      "sha256": "a03f2bff1708808c39f5a5ce77996d575a73fe8a1193bde901fe0c618a4b4ca7"
+    },
+    {
+      "file": "icons/favicon.svg",
+      "bytes": 658,
+      "sha256": "d9bbe8ffdd8a54ea34292cd7a06cd23b6e97670d68fa009d356f30529416bffc"
+    },
+    {
+      "file": "icons/maskable-icon-192.png",
+      "bytes": 2495,
+      "sha256": "327202d50cf13a4460fb1fb8cc8ffec1946305908fe8170e74b7695a03bf022a",
+      "width": 192,
+      "height": 192,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/maskable-icon-512.png",
+      "bytes": 7293,
+      "sha256": "1ae71aa7577c315db0bf5b29ac56835aa02195b60bb6d7ca606b497228653ba4",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/mstile-150x150.png",
+      "bytes": 2046,
+      "sha256": "b8ad6ae075bfbd253440d2467253ffae61fd9e98b7290518e838d8420222fa15",
+      "width": 150,
+      "height": 150,
+      "mode": "RGBA"
+    },
+    {
+      "file": "icons/safari-pinned-tab.svg",
+      "bytes": 563,
+      "sha256": "3918e51229fee963d1e8786f74e368692b0c62bf0a72b5f65ad012e27ec80e44"
+    },
+    {
+      "file": "icons/site.webmanifest",
+      "bytes": 712,
+      "sha256": "5e0a809872e6b7dd588a227e2e81fe7cf1baf3b78c11e11f391e4b3549ac8294"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-black-1024w.png",
+      "bytes": 35816,
+      "sha256": "f59f68885e82f7dde52a031a6174c8be26aa65c55a8e11a5bc1c55475fa5563f",
+      "width": 1024,
+      "height": 318,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-black-2048w.png",
+      "bytes": 52446,
+      "sha256": "d6f8e0b88a5789e0aae99b3988a95829438ddc066ee73f7e41b039f78afd9c52",
+      "width": 2048,
+      "height": 637,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-black-4096w.png",
+      "bytes": 170593,
+      "sha256": "0767d9af396ca550e47a4132994be0e0d7da32612d821c550a83e4504afd17b8",
+      "width": 4096,
+      "height": 1274,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-navy-1024w.png",
+      "bytes": 36975,
+      "sha256": "b69d6011f4e71640babc8ed76c5c11ef366941abb3cdb72b5cf5cb498568c920",
+      "width": 1024,
+      "height": 318,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-navy-2048w.png",
+      "bytes": 52449,
+      "sha256": "905d9622cbe0873d38e7cb6222292c37bc473d3809e6a17446f5be4792ce2d6d",
+      "width": 2048,
+      "height": 637,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-navy-4096w.png",
+      "bytes": 177942,
+      "sha256": "ebedc8fb69a51d4eb97fb3fb4f3989d07cee0cefc33fb27ad0a48ed9b530ed71",
+      "width": 4096,
+      "height": 1274,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-white-1024w.png",
+      "bytes": 26874,
+      "sha256": "4b4b9eaa61e45dc46288bd320d1ccdd0f54b95185870ece088e7f547909eee80",
+      "width": 1024,
+      "height": 318,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-white-2048w.png",
+      "bytes": 42313,
+      "sha256": "9f467d4f794b925ee208460e2e0e724ef110112a0102138a0cc4e471e4ef912e",
+      "width": 2048,
+      "height": 637,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/lockups/3dclash-tagline-white-4096w.png",
+      "bytes": 129417,
+      "sha256": "3db6a19737735c02ca27f3a84c563987743f8b0a396cf5d8ca3df020a5ad791b",
+      "width": 4096,
+      "height": 1274,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-black-1024.png",
+      "bytes": 19084,
+      "sha256": "8f6a688c6a2675cd2e2ace93c03e722cd0cd5a0769eae9dce4f3965d2095b300",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-black-128.png",
+      "bytes": 1670,
+      "sha256": "dd604c53b96e624eddf5c6587dfbaef3cdd8d03fb94771d3ea0fa45e7862784c",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-black-256.png",
+      "bytes": 3440,
+      "sha256": "c424ea72bc612447fc67a41d1bcfd11a39d2b847adebaed13b7d77584470c53d",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-black-512.png",
+      "bytes": 7036,
+      "sha256": "864486533fa2059ca2ee28227a7fbf770905b9f9038d29728b0956d0610ce169",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-black-64.png",
+      "bytes": 1126,
+      "sha256": "9b13befda9b67541f233c2c2167002d33710ab0df94dfcc0bae9298d2631b0db",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-navy-1024.png",
+      "bytes": 19052,
+      "sha256": "1143b0f681ced561ff5ceb2e9f3e674e7cf1de70b1fb2c42f1bd577c97b6de02",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-navy-128.png",
+      "bytes": 1670,
+      "sha256": "4534ecef348c5371cf1823846a9d6135dacc5a238c76ecc9bb74ed3dc2339c7d",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-navy-256.png",
+      "bytes": 3438,
+      "sha256": "c4fc98afc8028c0ac745d556147632c6fb0235b50a76595fedd0b67e18755158",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-navy-512.png",
+      "bytes": 7020,
+      "sha256": "bbce1a514af84f7c3f529f47898368f8cebd478630feaa5806d8d16b1fdb3755",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-navy-64.png",
+      "bytes": 1134,
+      "sha256": "d3138ae85a8476b2a58d576f39ba5c3deb5cc64e9de7a6c1836b17be480aa7db",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-white-1024.png",
+      "bytes": 15194,
+      "sha256": "7272b90ef23c41a8987988376e47c905154db59ae8f191a744f8ad523b19de82",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-white-128.png",
+      "bytes": 1428,
+      "sha256": "d865316c7f4aba950c6e07ae317ceb015088b3da3c9e8623046db8b532ba2b56",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-white-256.png",
+      "bytes": 2843,
+      "sha256": "21f5a648d04cc646383aa681c63ec5ab72feaf288ae5842e290830b750fa12ab",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-white-512.png",
+      "bytes": 5780,
+      "sha256": "b1b59a9348e37eb9379a10a5c4ce46d3f01221e455e4b22ccaf95b7e794323ad",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/symbols/3dclash-symbol-white-64.png",
+      "bytes": 954,
+      "sha256": "c32cb41cf7131db850404c463ffb9b8e3a48fe5de3dbfdff2d66b1a978fc0560",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-black-1024w.png",
+      "bytes": 25601,
+      "sha256": "82a1c73da0c147fbfe07150e2f7a3b34bf894693fce63395effc0c1a55306a45",
+      "width": 1024,
+      "height": 258,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-black-2048w.png",
+      "bytes": 40943,
+      "sha256": "41f761981851322b92fddfeef8c5933b85cfbe47474763b33d1da5145e5a0889",
+      "width": 2048,
+      "height": 516,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-black-4096w.png",
+      "bytes": 96696,
+      "sha256": "9146b2a788248a9ddd263caf9b19a4743490a052e9f031b1a9c66f9a7d5c2660",
+      "width": 4096,
+      "height": 1032,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-black-512w.png",
+      "bytes": 7896,
+      "sha256": "89d30ed949ad0d289f63cbe8179b560894e2a38231a37b62755c961c1bf9cc58",
+      "width": 512,
+      "height": 129,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-navy-1024w.png",
+      "bytes": 26572,
+      "sha256": "9aeb5c1b160456c53e0562f00593e6665b00ba6d49b1b359a50a37f2ca631079",
+      "width": 1024,
+      "height": 258,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-navy-2048w.png",
+      "bytes": 41041,
+      "sha256": "61397e03014d54cbbfacee67fa5c799fcc9e90811a4f6f2063b604bc8ee0702e",
+      "width": 2048,
+      "height": 516,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-navy-4096w.png",
+      "bytes": 97037,
+      "sha256": "a35a8a97306bf16c4801435041cf8c4e6c69fbde582630a83fa48b4bb89b73f9",
+      "width": 4096,
+      "height": 1032,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-navy-512w.png",
+      "bytes": 7921,
+      "sha256": "6f5cae80278f8a229a96e69dcbd7f83208070dc448ae9709fc5b7b3c08cf067f",
+      "width": 512,
+      "height": 129,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-white-1024w.png",
+      "bytes": 19698,
+      "sha256": "5e115048e4016c8c2e926df9a3f3a570087d5294162fe8d5a8752be64930fb82",
+      "width": 1024,
+      "height": 258,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-white-2048w.png",
+      "bytes": 32701,
+      "sha256": "2acfbba181209029a91ff4b58fef2def93a119448b61e4a6fa0736f60b6c6c54",
+      "width": 2048,
+      "height": 516,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-white-4096w.png",
+      "bytes": 76590,
+      "sha256": "3f7b62318bcc20d899a62089d2f3b1576891c40490ba845b1e257cde647a726c",
+      "width": 4096,
+      "height": 1032,
+      "mode": "RGBA"
+    },
+    {
+      "file": "png/wordmarks/3dclash-wordmark-white-512w.png",
+      "bytes": 6651,
+      "sha256": "50d1a1409a3b953a76513a260f333f0b04879ae52ad1c0d7cca4a38db7f8aefe",
+      "width": 512,
+      "height": 129,
+      "mode": "RGBA"
+    },
+    {
+      "file": "preview/asset-pack-overview.png",
+      "bytes": 119915,
+      "sha256": "86f77581dcbc271de13aec681350f479a02f68ee8ca9f9d7cd79228310fadaba",
+      "width": 1800,
+      "height": 1500,
+      "mode": "RGBA"
+    },
+    {
+      "file": "preview/asset-pack-overview.svg",
+      "bytes": 209131,
+      "sha256": "eecea805ae81bcdd7dd1f0e09ccf3510ffc3cec57d368788126bee8bc8ae74ef"
+    },
+    {
+      "file": "preview/index.html",
+      "bytes": 929,
+      "sha256": "b8da38080e2adee2dedc8a4f914ba53c32f648f306dd98cee64d2a6b56f2aaaa"
+    },
+    {
+      "file": "print/3dclash-print-masters.pdf",
+      "bytes": 19361,
+      "sha256": "65193c4fba5671c447d596513a8a7b4c0661ddce3c953c74797f121b8cedca41",
+      "pages": 6
+    },
+    {
+      "file": "print/3dclash-symbol-black.eps",
+      "bytes": 579,
+      "sha256": "eef051abc3d5e47ea623e23eb4fff66d49d9cb67f91703892dd11e75c2635900"
+    },
+    {
+      "file": "print/3dclash-symbol-navy.eps",
+      "bytes": 580,
+      "sha256": "9e0f0e6db5e5b8b6ebd5e268f2b3e4319c835b9574477c5205254274432246bb"
+    },
+    {
+      "file": "print/3dclash-wordmark-black.eps",
+      "bytes": 8746,
+      "sha256": "614253cbda5cc9a9f8deb3f8bf235e49acb71582abaf447809298302f3804462"
+    },
+    {
+      "file": "print/3dclash-wordmark-navy.eps",
+      "bytes": 8747,
+      "sha256": "1ff1818fbab439605e332416ea847aee5694b05757232f907d0e2bc9ce86454b"
+    },
+    {
+      "file": "social/og-dark.png",
+      "bytes": 33733,
+      "sha256": "12f3a5d9fcde7acfbe60802e136d3c665a22d0493c6cd9a209450c04e519c951",
+      "width": 1200,
+      "height": 630,
+      "mode": "RGBA"
+    },
+    {
+      "file": "social/og-dark.svg",
+      "bytes": 44928,
+      "sha256": "ddaaba4e8d4d81d756ff0624cfcb0de739750411f80bee4dabdd7da9f3916c2f"
+    },
+    {
+      "file": "social/og-light.png",
+      "bytes": 33633,
+      "sha256": "d0560335e030cfe9f2034748f0b9f0bf44997767b0dceddd7e9d29a135437a1e",
+      "width": 1200,
+      "height": 630,
+      "mode": "RGBA"
+    },
+    {
+      "file": "social/og-light.svg",
+      "bytes": 44986,
+      "sha256": "92612cbc0989d31e8a78064eccaffc7655f903458ec8cd45c45a54d1e5c40c5e"
+    },
+    {
+      "file": "social/profile-banner.png",
+      "bytes": 26354,
+      "sha256": "fd2d765b4ee018174874cf9fd2fdff853453082650df967c570e49b2862c9207",
+      "width": 1584,
+      "height": 396,
+      "mode": "RGBA"
+    },
+    {
+      "file": "social/profile-banner.svg",
+      "bytes": 45112,
+      "sha256": "c608f011a62624395c55942b7500a3483c15b9e56a05ed016f4de992ec60ae47"
+    },
+    {
+      "file": "social/square-dark.png",
+      "bytes": 35473,
+      "sha256": "a62e531debb2d92d1c8d7fc37e232f51cf000d9525b3e1ef197abd11744d8f85",
+      "width": 1080,
+      "height": 1080,
+      "mode": "RGBA"
+    },
+    {
+      "file": "social/square-dark.svg",
+      "bytes": 44279,
+      "sha256": "9bd3ec4912736258c1e5ef0d8efaaa6329e27100c95bf8fa95c70ebeeb62d101"
+    },
+    {
+      "file": "social/square-light.png",
+      "bytes": 35402,
+      "sha256": "8b2342f886d0f9a41ba6c941bde389fb7786721e82649f89604247a417ca6e69",
+      "width": 1080,
+      "height": 1080,
+      "mode": "RGBA"
+    },
+    {
+      "file": "social/square-light.svg",
+      "bytes": 44337,
+      "sha256": "25c372f7b1f804c68d16066ae0db297905b710d48b7c1cfe2379119f8baa6434"
+    },
+    {
+      "file": "source/build-assets.cjs",
+      "bytes": 14324,
+      "sha256": "9b8aec96446b4811d73854b3f0658fb1c990eebeba555841ace6f456e5164748"
+    },
+    {
+      "file": "source/build-print.py",
+      "bytes": 16150,
+      "sha256": "21a6ea6cf66676136483800c5f5623d772e8301a28b68f08043c1ef8ea040dcd"
+    },
+    {
+      "file": "source/export-list.json",
+      "bytes": 3865,
+      "sha256": "f6b96ad6358ad4aa8483aa5c6c7d9a8af5b39fd41d1ade714faa916573306c3a"
+    },
+    {
+      "file": "source/generate-master.py",
+      "bytes": 8010,
+      "sha256": "46e795db15fe27a8eba55e43d201cd7f9db4e242d5d3508c3515cafb34938e3a"
+    },
+    {
+      "file": "source/master.json",
+      "bytes": 24131,
+      "sha256": "f458c78c5d73b4dc92968d8e1d35b5ebc012a6f73b3729e7f56c660b5450d9ec"
+    },
+    {
+      "file": "svg/lockups/3dclash-tagline-black.svg",
+      "bytes": 16938,
+      "sha256": "8106323c208e7842e370baec5114605cabe3f4360389c0b5b1684a4035315492"
+    },
+    {
+      "file": "svg/lockups/3dclash-tagline-navy.svg",
+      "bytes": 16938,
+      "sha256": "befee58395da311c767ed270a592d8304b8a8fe21d291f0bb27816cce145b881"
+    },
+    {
+      "file": "svg/lockups/3dclash-tagline-white.svg",
+      "bytes": 16880,
+      "sha256": "ea7f62445c57c62c5f5501f91cd09ecba11e961a16c3d153ee4d1928a26af3d5"
+    },
+    {
+      "file": "svg/symbols/3dclash-symbol-black.svg",
+      "bytes": 563,
+      "sha256": "823ad5b58f36e1001e3d8d5e8f288877431c41a6d27fa2aec27bdbd1c11e3539"
+    },
+    {
+      "file": "svg/symbols/3dclash-symbol-currentcolor.svg",
+      "bytes": 568,
+      "sha256": "8ebdf5a96b51eb6a1716eacfa9e5702fa5121b1faaad45055d35568c1e786365"
+    },
+    {
+      "file": "svg/symbols/3dclash-symbol-navy.svg",
+      "bytes": 563,
+      "sha256": "da4f2afd2d5c4be2cc75c1be08339b42c1178c7ba3e71ad2f8f24e8feec0412d"
+    },
+    {
+      "file": "svg/symbols/3dclash-symbol-white.svg",
+      "bytes": 563,
+      "sha256": "b309362ed83c9867d35cededbd8ac3cbba60079c92cb866704527eb02b9d5735"
+    },
+    {
+      "file": "svg/wordmarks/3dclash-wordmark-black.svg",
+      "bytes": 7867,
+      "sha256": "f199ab4bb1ec91d273422d7f9823ba25c1e87b1159e4f3c3a364bb8e8a02c681"
+    },
+    {
+      "file": "svg/wordmarks/3dclash-wordmark-currentcolor.svg",
+      "bytes": 7872,
+      "sha256": "1009d60b8383aefab6d2e95b5d18704b11bc20ac476f3c79af9f8a882a49beb4"
+    },
+    {
+      "file": "svg/wordmarks/3dclash-wordmark-navy.svg",
+      "bytes": 7867,
+      "sha256": "dec3fd8689cbbfc86a57006ddc62d95405258cd291a14dcd8568a2db9da60bc3"
+    },
+    {
+      "file": "svg/wordmarks/3dclash-wordmark-white.svg",
+      "bytes": 7867,
+      "sha256": "7b51985b58c01f0e1f3d1e3fa5046efe0c72ebd68319115858692e4879c7ed4d"
+    },
+    {
+      "file": "tokens/3dclash-colours.json",
+      "bytes": 367,
+      "sha256": "cc121bb868b38f2daf481eb7f6a0480affb3814f4817420eb81d5c60e008b53b"
+    },
+    {
+      "file": "tokens/3dclash-tokens.css",
+      "bytes": 276,
+      "sha256": "0b2fe9a521e3da9f42c611915c97c92a7184d6ece16bfcde5e4bde75290c5030"
+    },
+    {
+      "file": "video/corner-bug-black.png",
+      "bytes": 14941,
+      "sha256": "86e9faeb9e329bd87ab613c6ea40a23a6e21a3dbbb8ad93595ddf9d127c72f8e",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGBA"
+    },
+    {
+      "file": "video/corner-bug-black.svg",
+      "bytes": 7909,
+      "sha256": "7682cbe7b87a852e88fd232383769ac1bb83f28e6a98ecd2893867c7f983512a"
+    },
+    {
+      "file": "video/corner-bug-white.png",
+      "bytes": 13411,
+      "sha256": "390f460c7939d1d058d601976d7d0722028e95980e1746ebe2bbc2c81987aee4",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGBA"
+    },
+    {
+      "file": "video/corner-bug-white.svg",
+      "bytes": 7909,
+      "sha256": "df92581aef9d79bd9b8f3bd4015c1c608770f82e23012a8078266272a6d96d69"
+    },
+    {
+      "file": "video/title-dark.png",
+      "bytes": 59094,
+      "sha256": "b545bef0d942a2b29c33c9e7e3d5cee76dfc257d0c035b6a8d5e0a1116768048",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGBA"
+    },
+    {
+      "file": "video/title-dark.svg",
+      "bytes": 44016,
+      "sha256": "a6967e1d12b4966a818c400f0a78a2358187e2f8f366d5440b4c6aaec559e09d"
+    },
+    {
+      "file": "video/title-light.png",
+      "bytes": 58769,
+      "sha256": "6a82b7532723c3760ae27b5617bde8d4774f68f1f6f25ffd4f83cd6c66baf18e",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGBA"
+    },
+    {
+      "file": "video/title-light.svg",
+      "bytes": 44074,
+      "sha256": "4cdf7448ae1b2b10a7490d137c9283e32c93fe5c1b638f701163b3e237a12920"
+    }
+  ]
+}

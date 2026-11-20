@@ -1,0 +1,10 @@
+:root {
+  --clash3d-ink: #11161B;
+  --clash3d-navy: #052640;
+  --clash3d-white: #FFFFFF;
+  --clash3d-paper: #F5F7F8;
+  --clash3d-line: #DDE3E7;
+  --clash3d-muted: #52636E;
+  --clash3d-font-support: "Inter", "Segoe UI", Arial, sans-serif;
+  --clash3d-clearspace-ratio: 0.25;
+}

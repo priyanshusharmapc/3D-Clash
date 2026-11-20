@@ -1,0 +1,36 @@
+# Note: .kiro/ is deliberately tracked. Do not ignore it.
+
+# Only the named demo models ship in git. Keep other local data out.
+samples/*
+!samples/README.md
+!samples/Northbank-Architecture.ifc
+!samples/Northbank-Grids.ifc
+!samples/Northbank-MEP-Rev04.ifc
+!samples/Northbank-MEP.ifc
+!samples/Northbank-Site.ifc
+!samples/Northbank-Structure.ifc
+!samples/PC-03-Palletising-Cell-RevA.step
+!samples/PC-03-Palletising-Cell-RevB.step
+*.spike.ifc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+web/dist/
+web/public/wasm/
+
+# Secrets
+.env
+.env.*
+!.env.example
+server/.clash3d-settings.json
+
+# OS
+.DS_Store
+Thumbs.db
